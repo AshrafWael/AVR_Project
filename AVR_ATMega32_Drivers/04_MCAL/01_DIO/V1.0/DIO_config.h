@@ -1,0 +1,79 @@
+/*
+ * DIO_config.h
+ *
+ *  Created on: May 5, 2023
+ *      Author: User
+ */
+
+#ifndef DIO_CONFIG_H_
+#define DIO_CONFIG_H_
+
+#define PA_PIN0_DIR  INPUT
+#define PA_PIN1_DIR  OUTPUT
+#define PA_PIN2_DIR  INPUT
+#define PA_PIN3_DIR  OUTPUT
+#define PA_PIN4_DIR  OUTPUT
+#define PA_PIN5_DIR  INPUT
+#define PA_PIN6_DIR  INPUT
+
+#define PB_PIN0_DIR  INPUT
+#define PB_PIN1_DIR  OUTPUT
+#define PB_PIN2_DIR  INPUT
+#define PB_PIN3_DIR  OUTPUT
+#define PB_PIN4_DIR  OUTPUT
+#define PB_PIN5_DIR  INPUT
+#define PB_PIN6_DIR  INPUT
+
+#define PC_PIN0_DIR  INPUT
+#define PC_PIN1_DIR  OUTPUT
+#define PC_PIN2_DIR  INPUT
+#define PC_PIN3_DIR  OUTPUT
+#define PC_PIN4_DIR  OUTPUT
+#define PC_PIN5_DIR  INPUT
+#define PC_PIN6_DIR  INPUT
+
+#define PD_PIN0_DIR  INPUT
+#define PD_PIN1_DIR  OUTPUT
+#define PD_PIN2_DIR  INPUT
+#define PD_PIN3_DIR  OUTPUT
+#define PD_PIN4_DIR  OUTPUT
+#define PD_PIN5_DIR  INPUT
+#define PD_PIN6_DIR  INPUT
+
+#define PA_PIN0_VALUE  PULL_UP
+#define PA_PIN1_VALUE  LOW
+#define PA_PIN2_VALUE  FLOAT
+#define PA_PIN3_VALUE  LOW
+#define PA_PIN4_VALUE  HIGH
+#define PA_PIN5_VALUE  PULL_UP
+#define PA_PIN6_VALUE  FLOAT
+
+
+#define PB_PIN0_VALUE  PULL_UP
+#define PB_PIN1_VALUE  LOW
+#define PB_PIN2_VALUE  FLOAT
+#define PB_PIN3_VALUE  LOW
+#define PB_PIN4_VALUE  HIGH
+#define PB_PIN5_VALUE  PULL_UP
+#define PB_PIN6_VALUE  FLOAT
+
+#define PC_PIN0_VALUE  PULL_UP
+#define PC_PIN1_VALUE  LOW
+#define PC_PIN2_VALUE  FLOAT
+#define PC_PIN3_VALUE  LOW
+#define PC_PIN4_VALUE  HIGH
+#define PC_PIN5_VALUE  PULL_UP
+#define PC_PIN6_VALUE  FLOAT
+
+#define PD_PIN0_VALUE  PULL_UP
+#define PD_PIN1_VALUE  LOW
+#define PD_PIN2_VALUE  FLOAT
+#define PD_PIN3_VALUE  LOW
+#define PD_PIN4_VALUE  HIGH
+#define PD_PIN5_VALUE  PULL_UP
+#define PD_PIN6_VALUE  FLOAT
+
+
+
+
+#endif /* DIO_CONFIG_H_ */
